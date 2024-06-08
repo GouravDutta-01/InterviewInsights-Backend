@@ -3,11 +3,11 @@
 Follow these steps to set up and run the project locally on your machine.<br/><br/>
 Clone the Repository
 ```bash
-git clone https://github.com/GouravDutta-01/The-Blog-Cafe.git
+git clone https://github.com/GouravDutta-01/InterviewInsights-Backend.git
 ```
 Navigate to the root directory of the project
 ```bash
-cd The-Blog-Cafe
+cd InterviewInsights-Backend
 ```
 Install dependencies:
 ```bash
