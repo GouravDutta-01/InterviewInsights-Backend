@@ -10,7 +10,7 @@ const ratingRoutes = require('./routes/ratingRoutes');
 const companyRoutes = require('./routes/companyRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -27,5 +27,5 @@ app.use('/api/ratings', ratingRoutes);
 app.use('/api/companies', companyRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`InterviewInsights-Backend running on port ${PORT}`);
 });

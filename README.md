@@ -17,10 +17,9 @@ Create a .env file in the backend directory and add the following content:
 ```env
 MONGO_URL=your_mongo_db_url_here
 JWT_SECRET=your_jwt_secret
-PORT=your_preferred_port_for_running_backend
 ```
 Run the backend:
 ```bash
 npm start
 ```
-The backend will start at your preferred port
+The backend will start at http://localhost:5000
